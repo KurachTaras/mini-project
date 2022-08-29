@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.users {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.user{
+    width: 45%;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-sizing: border-box;
+    margin: 10px;
+}
+
+.user-btn {
+    width: 50%;
+    height: 25px;
+    background: cornflowerblue;
+    text-decoration: none;
+    color: white;
+    border: 1px solid black;
+    box-sizing: border-box;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-btn:hover {
+    transition: 0.8s;
+    background: darkslateblue;
+}
+
+p {
+    width: 70%;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+}

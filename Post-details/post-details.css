@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+}
+
+.userPost {
+    width: 95%;
+    margin: 5% 0 0 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 2px solid cornflowerblue;
+}
+
+.postInfo {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    border: 1px solid;
+}
+
+.postComment {
+    width: 95%;
+    margin: 5% 0 0 2%;
+    display: flex;
+}
+
+.comment {
+    width: 25%;
+    border: 1px solid cornflowerblue;
+    margin: 0 10px 0 0;
+}
+
+.commentInfo {}
